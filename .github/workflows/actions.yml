@@ -1,0 +1,9 @@
+name: QR Code Generator
+on: [push]
+jobs:
+  Build-Confirmation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build-Confirmation
+        run: echo "Build Successfully 🧡🦄💚"
