@@ -2,7 +2,7 @@
 
 Simple app to generate and download a QR code that can be used to share a link.
 
-[Live Demo](https://qr-code-generator-imskanand.netlify.app/)
+Live Website : [QRCode Generator](https://qr-code-generator-imskanand.netlify.app/)
 
 ## Full Screen
 
