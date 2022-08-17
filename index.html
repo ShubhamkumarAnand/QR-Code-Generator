@@ -4,6 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
 		<script src="https://cdn.tailwindcss.com"></script>
 		<script>
 			tailwind.config = {
@@ -16,6 +22,11 @@
 				},
 			}
 		</script>
+		<style>
+			#spinner {
+				display: none;
+			}
+		</style>
 		<script
 			src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
 			integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
@@ -75,9 +86,7 @@
 				</div>
 			</div>
 
-			<!-- Generated QR Code -->
 			<div class="max-w-5xl m-auto flex flex-col text-center align-center justify-center mt-20">
-				<!-- Spinner -->
 				<div id="spinner" role="status">
 					<svg
 						class="inline mr-2 w-24 h-24 text-gray-200 animate-spin dark:text-gray-600 fill-pink-600"
@@ -97,7 +106,6 @@
 					<span class="sr-only">Loading...</span>
 				</div>
 
-				<!-- QR Code Output-->
 				<div id="qrcode" class="m-auto"></div>
 			</div>
 		</main>
