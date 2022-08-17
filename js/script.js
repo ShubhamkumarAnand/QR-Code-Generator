@@ -10,6 +10,9 @@ const onGenerateSubmit = (e) => {
     alert('Please enter a valid url');
   } else {
     showSpinner();
+    setTimeout(() => {
+      hideSpinner();
+    }, 1000);
   }
 }
 
